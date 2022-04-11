@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Lab2">
+      <UniqueIdentifier>{ebe6611f-8ff5-4a4b-a571-a5bcae58aabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab2">
+      <UniqueIdentifier>{8db24657-89b4-4845-a9b6-a181a1df5aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGSourceFiles">
+      <UniqueIdentifier>{42c08532-6ed2-4138-a58d-199fda3aedaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab3">
+      <UniqueIdentifier>{7000a862-ff2d-4da8-a0e6-c57f50aac0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab3">
+      <UniqueIdentifier>{c3c0a6e7-fba0-4afb-8e34-fbafdd379150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab2\HomeWorkExcersize.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\lab2.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3\lab3.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lab2\Node.h">
+      <Filter>Header Files\Lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab2\TreeSearch.h">
+      <Filter>Header Files\Lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab3\AStar.h">
+      <Filter>Header Files\Lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab3\Map.h">
+      <Filter>Header Files\Lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab3\Node.h">
+      <Filter>Header Files\Lab3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lab2\search.py">
+      <Filter>OGSourceFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

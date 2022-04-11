@@ -1,0 +1,2 @@
+C:\Users\simon\Documents\GitHub\AI\AI\Debug\AI.exe
+C:\Users\simon\Documents\GitHub\AI\AI\Debug\AI.pdb
