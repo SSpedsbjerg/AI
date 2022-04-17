@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Main",
+      "appliesTo": "Lab4/Main.cpp",
+      "type": "launch"
+    }
+  ]
+}

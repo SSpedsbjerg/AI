@@ -6,7 +6,8 @@
 namespace Population {
 	class Person {
 	private:
-		int values[3];
+		static const int nrOfValues = 3;
+		int values[nrOfValues];
 		std::vector<Person*> children;
 		std::vector<Person*> parents;
 		int generation = 0;
@@ -14,6 +15,13 @@ namespace Population {
 		//used for first generation
 		Person(int value0, int value1, int value2) {
 			this->values[0] = value0; this->values[1] = value1; this->values[2] = value2;
+		}
+
+		Person() {
+			srand(time(NULL));
+			for (int i = 0; i < nrOfValues; i++) {
+				values[i] = rand() % 2;
+			}
 		}
 
 		Person(Person* parent0, Person* parent1) {
@@ -42,7 +50,7 @@ namespace Population {
 			}
 			//add parents
 			parents.push_back(parent0); parents.push_back(parent1);
-			//add children to children
+			//add children to the parents
 			parent0->addChild(this); parent1->addChild(this);
 			//add generation
 			generation = parent0->getGeneration();
@@ -57,7 +65,6 @@ namespace Population {
 		}
 
 		std::vector<int> getValue() {
-			
 			return {values[0], values[1], values[2]};
 		}
 
