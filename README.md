@@ -1,2 +1,2 @@
 # AI
-Do AI shit with C++
+Do AI experiments with C++
